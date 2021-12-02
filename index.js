@@ -6,9 +6,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const path_1 = __importDefault(require("path"));
 const fs_1 = __importDefault(require("fs"));
 const importFolder = (folder) => {
-    let modules, {};
+    let modules = {};
     let folderPath = path_1.default.join(__dirname, folder);
-    console.log(folderPath);
     fs_1.default.readdirSync(folderPath).forEach((file) => {
         let filePath = path_1.default.join(folderPath, file);
         if (fs_1.default.lstatSync(filePath).isFile()) {

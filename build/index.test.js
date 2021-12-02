@@ -23,9 +23,14 @@ test('it imports all modules from given folder', () => __awaiter(void 0, void 0,
     expect(typeof modules.math.sub == 'function').toEqual(true);
 }));
 test('it imports all modules from given folder not in the same level', () => __awaiter(void 0, void 0, void 0, function* () {
-    const abc = (0, index_1.default)('./helpers/subfolder');
-    expect(typeof abc == 'function').toEqual(true);
-    expect(abc()).toEqual('abc');
+    const { abc } = (0, index_1.default)('./helpers/subfolder');
+    expect(typeof abc.sayHello == 'function').toEqual(true);
+    expect(abc.sayHello()).toEqual('hello');
+}));
+test('it is able to be called directly with require', () => __awaiter(void 0, void 0, void 0, function* () {
+    const { abc } = require('./index').default('./helpers/subfolder');
+    expect(typeof abc.sayHello == 'function').toEqual(true);
+    expect(abc.sayHello()).toEqual('hello');
 }));
 test('it works with javascript files and modules.export', () => __awaiter(void 0, void 0, void 0, function* () {
     const modules = (0, index_1.default)('helpers');
