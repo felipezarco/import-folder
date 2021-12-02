@@ -1,5 +1,5 @@
 
-import importFolder from './index'
+import importFolder from 'import-folder'
 
 test('it imports all modules from given folder', async () => {
   

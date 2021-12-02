@@ -1,6 +1,6 @@
 {
   "name": "import-folder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Import all exported modules from files in folder at once",
   "main": "index.js",
   "types": "index",
