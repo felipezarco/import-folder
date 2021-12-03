@@ -2024,18 +2024,6 @@ iconv-lite@0.4.24:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
-import-folder@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/import-folder/-/import-folder-0.0.2.tgz#c51b657a24fa3f7f90feb08d7d43cb102ab4ba24"
-  integrity sha512-V5+DocML4VrJo3VFHDGcIfdZEoIZCFNkIOE/KfPQKqyABVcsrDE+jd8oOhga0VLkcUiUQD7sN74IF6SQ2OqMmQ==
-
-import-folder@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/import-folder/-/import-folder-0.0.3.tgz#0470fcfac30568720ff70244f5664b8720414223"
-  integrity sha512-PKkuORq9LRFOZ1dJKkjROaWToSvoHSSMSv7T96GvFZjBS/eQiAppRXi98jf4I7YB9ohyvnxZPZjPrrcKdNw4mw==
-  dependencies:
-    import-folder "^0.0.2"
-
 import-local@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/import-local/-/import-local-3.0.3.tgz#4d51c2c495ca9393da259ec66b62e022920211e0"

@@ -37,9 +37,7 @@
     "url": "https://github.com/felipezarco/import-folder/issues"
   },
   "homepage": "https://github.com/felipezarco/import-folder#readme",
-  "dependencies": {
-    "import-folder": "^0.0.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/express": "^4.17.11",
     "@types/jest": "^27.0.3",
