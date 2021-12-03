@@ -1,9 +1,9 @@
 
-import importFolder from 'import-folder'
+import importFolder from './index'
 
 test('it imports all modules from given folder', async () => {
   
-  const modules = importFolder('helpers')
+  const modules = importFolder('./helpers')
   
   expect(typeof modules.extractNumbers == 'function').toEqual(true)
   expect(typeof modules.checkTypes.number == 'function').toEqual(true)

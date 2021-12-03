@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const index_1 = __importDefault(require("./index"));
 test('it imports all modules from given folder', () => __awaiter(void 0, void 0, void 0, function* () {
-    const modules = (0, index_1.default)('helpers');
+    const modules = (0, index_1.default)('./helpers');
     expect(typeof modules.extractNumbers == 'function').toEqual(true);
     expect(typeof modules.checkTypes.number == 'function').toEqual(true);
     expect(typeof modules.checkTypes.boolean == 'function').toEqual(true);
